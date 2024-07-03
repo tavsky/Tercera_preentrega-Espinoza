@@ -1,0 +1,29 @@
+{% extends "App1/index.html"%}
+
+
+
+{% block Titulo %}
+<div class="masthead-subheading">Inventario</div>
+<div class="masthead-heading text-uppercase">revisar inventario</div>
+{% endblock Titulo %}
+
+{% block contenido %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th>SKU</th>
+        <th>Nombre_encargado</th>
+        <th>Cantidad</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%for e in Stock %}
+        <tr>
+            <td>{{e.SKU}}</td>
+            <td>{{e.Nombre_encargado}}</td>
+            <td>{{e.Cantidad}}</td>
+        </tr>
+    {%endfor %}
+      </tbody>
+</table>
+{% endblock contenido %}

@@ -1,0 +1,31 @@
+{% extends "App1/index.html"%}
+
+
+
+{% block Titulo %}
+<div class="masthead-subheading">Ventas</div>
+<div class="masthead-heading text-uppercase">ingreso de nuevas ventas</div>
+{% endblock Titulo %}
+
+{% block contenido %}
+  <table class="table table-striped">
+      <thead>
+          <tr>
+          <th>SKU</th>
+          <th>Nombre_encargado</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+      {%for c in Ventas %}
+          <tr>
+              <td>{{c.SKU}}</td>
+              <td>{{c.Nombre_encargado}}</td>
+              <td>{{c.Cantidad}}</td>
+              <td>{{c.Precio}}</td>
+          </tr>
+      {%endfor %}
+        </tbody>
+  </table>
+{% endblock contenido %}

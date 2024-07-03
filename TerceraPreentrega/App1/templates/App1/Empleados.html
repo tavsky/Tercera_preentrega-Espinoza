@@ -1,0 +1,26 @@
+{% extends "App1/index.html"%}
+
+{% block Titulo %}
+<div class="masthead-subheading">Directorio</div>
+<div class="masthead-heading text-uppercase">intranet colaboradores</div>
+{% endblock Titulo %}
+
+{% block contenido %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th>Nombre</th>
+        <th>Cargo</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%for B in Empleados %}
+        <tr>
+
+            <td>{{B.Nombre}}</td>
+            <td>{{B.Cargo}}</td>
+        </tr>
+    {%endfor %}
+      </tbody>
+</table>
+{% endblock contenido %}
