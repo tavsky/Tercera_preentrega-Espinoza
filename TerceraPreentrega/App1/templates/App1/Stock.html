@@ -1,0 +1,34 @@
+{% extends "App1/index.html"%}
+
+
+
+{% block Titulo %}
+<div class="masthead-subheading">Inventario</div>
+<div class="masthead-heading text-uppercase">revisar inventario</div>
+
+{% endblock Titulo %}
+
+{% block contenido %}
+<p><a class="button" href="{% url 'StockForm'%}">Ingresar Stock</a><i></a></p>
+<p><a class="button" href="{% url 'BuscarStock'%}">Buscar Stock</a><i></a></p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th>SKU</th>
+        <th>Nombre_encargado</th>
+        <th>Cantidad</th>
+        <th>Nombre_Producto</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%for e in Stock %}
+        <tr>
+            <td>{{e.SKU}}</td>
+            <td>{{e.Nombre_encargado}}</td>
+            <td>{{e.Cantidad}}</td>
+            <td>{{e.Nombre_Producto}}</td>
+        </tr>
+    {%endfor %}
+      </tbody>
+</table>
+{% endblock contenido %}
