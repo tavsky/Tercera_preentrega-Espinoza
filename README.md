@@ -12,6 +12,7 @@
         <li>Cliente: Este modelo busca consolidar la información relacionada a los clientes, donde sus atributos son: nombre, email, dirección y fecha de nacimiento</li>
         <li>Empleado: Este modelo busca consolidar la información relacionada a los empleados, donde sus atributos son: nombre, cargo (definido en 3 opciones cerradas)</li>
         <li>IngresoVenta: Este modelo busca definir las principales variables para gestionar las ventas, donde sus atributos son: SKU, Cantidad, nombre del encargado (quien registra el producto), precio y nombre del cliente  </li>
+        <li>Avatar: Este modelo solamente se utiliza para la gestión de la imagen relacionada a cada usuario.</li>
 
 <h2>Requisitos</h2>
 
