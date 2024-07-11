@@ -13,14 +13,13 @@
         <li>Empleado: Este modelo busca consolidar la información relacionada a los empleados, donde sus atributos son: nombre, cargo (definido en 3 opciones cerradas)</li>
         <li>IngresoVenta: Este modelo busca definir las principales variables para gestionar las ventas, donde sus atributos son: SKU, Cantidad, nombre del encargado (quien registra el producto), precio y nombre del cliente  </li>
 
-
 <h2>Requisitos</h2>
 
   <ul>
     <li>Python 3.7 o superior</li>
     <li>Django 3.2.5 o superior</li>
 
-  <h2>Instalación</h2>
+<h2>Instalación</h2>
 
   <ol>
     <li>Clona o descarga el repositorio de Dir-t Sauce desde GitHub: <a href="https://github.com/tu-usuario/dir-t-sauce">https://github.com/tu-usuario/dir-t-sauce</a></li>
@@ -37,19 +36,11 @@
     <li>Inicia el servidor de desarrollo: <code>python manage.py runserver</code></li>
   </ol>
 
-  <h2>Uso</h2>
+<h2>Uso</h2>
 
   <ol>
-    <li>Inicia sesión en la aplicación utilizando las credenciales del superusuario que creaste.</li>
     <li>Explora las diferentes pestañas disponibles para gestionar las ventas, el inventario, los clientes y el stock de las salsas.</li>
     <li>En cada pestaña, encontrarás formularios para ingresar datos y también podrás visualizar la información almacenada en la base de datos.</li>
     <li>Utiliza el panel de administración de Django para realizar tareas adicionales de gestión, como la creación de usuarios y la modificación de configuraciones.</li>
   </ol>
 
-  <h2>Créditos</h2>
-
-  <p>Dir-t Sauce utiliza Django, una poderosa herramienta de desarrollo web en Python, para crear este sistema de gestión de ventas e inventario.</p>
-
-  <h2>Notas adicionales</h2>
-
-  <p>¡Esperamos que Dir-t Sauce te ayude a gestionar eficientemente las ventas, el inventario, los clientes y el stock de las salsas en tu negocio!</p>
