@@ -10,13 +10,11 @@
      <ul>
         <li>IngresoStock: Este modelo busca definir las principales variables para gestionar el Stock, donde sus atributos son: SKU, Cantidad, nombre del encargado (quien registra el producto)y nombre del producto  </li>
         <li>Cliente: Este modelo busca consolidar la información relacionada a los clientes, donde sus atributos son: nombre, email, dirección y fecha de nacimiento</li>
-
         <li>Empleado: Este modelo busca consolidar la información relacionada a los empleados, donde sus atributos son: nombre, cargo (definido en 3 opciones cerradas)</li>
-
         <li>IngresoVenta: Este modelo busca definir las principales variables para gestionar las ventas, donde sus atributos son: SKU, Cantidad, nombre del encargado (quien registra el producto), precio y nombre del cliente  </li>
 
 
-  <h2>Requisitos</h2>
+<h2>Requisitos</h2>
 
   <ul>
     <li>Python 3.7 o superior</li>
