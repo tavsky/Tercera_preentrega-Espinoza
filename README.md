@@ -3,6 +3,19 @@
 
   <p>Dir-t Sauce es un sistema web desarrollado con Django que permite gestionar las ventas, el inventario, los clientes y el stock de un set de productos, en este caso, salsas. Con Dir-t Sauce, podrás realizar un seguimiento de las ventas, mantener actualizado el inventario, administrar la información de los clientes y gestionar el stock de las salsas de manera eficiente.</p>
 
+  <h2>Información relevante</h2>
+  <ul>
+    <li>El usuario administrador es roberto y la clave es 1234.</li>
+    <li>El modelo cuenta con 5 modelos que se mencionan a continuación</li>
+     <ul>
+        <li>IngresoStock: Este modelo busca definir las principales variables para gestionar el Stock, donde sus atributos son: SKU, Cantidad, nombre del encargado (quien registra el producto)y nombre del producto  </li>
+        <li>Cliente: Este modelo busca consolidar la información relacionada a los clientes, donde sus atributos son: nombre, email, dirección y fecha de nacimiento</li>
+
+        <li>Empleado: Este modelo busca consolidar la información relacionada a los empleados, donde sus atributos son: nombre, cargo (definido en 3 opciones cerradas)</li>
+
+        <li>IngresoVenta: Este modelo busca definir las principales variables para gestionar las ventas, donde sus atributos son: SKU, Cantidad, nombre del encargado (quien registra el producto), precio y nombre del cliente  </li>
+
+
   <h2>Requisitos</h2>
 
   <ul>
